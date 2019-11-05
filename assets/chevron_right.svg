@@ -1,0 +1,23 @@
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="17.1084375 8.8584375 12.375 13.5815625 7.6415625 8.8584375 6.1875 10.3125 12.375 16.5 18.5625 10.3125"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="evaluations/table-row" transform="translate(-1008.000000, -30.000000)">
+            <g id="elevations/table-row">
+                <g id="button/square/sm" transform="translate(994.000000, 18.000000)">
+                    <g id="ic_chevron_right" transform="translate(5.625000, 5.625000)">
+                        <g id="Icon-24px">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" transform="translate(12.375000, 12.679219) rotate(-90.000000) translate(-12.375000, -12.679219) " xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
