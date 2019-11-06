@@ -7,7 +7,7 @@
       "type": "controls",
       "id": "1",
       "attributes": {
-        "title": "Single-Qubit Driven Control",
+        "title": "Single-Qubit Driven",
         "polarAngle": 0.05671,
         "maxRabiRate": 0.16731
       }
@@ -16,7 +16,7 @@
       "type": "controls",
       "id": "2",
       "attributes": {
-        "title": "Evaluation 2",
+        "title": "Dynamical Decoupling Sequences",
         "polarAngle": 0.02688,
         "maxRabiRate": 0.00172
       }
@@ -25,7 +25,7 @@
       "type": "controls",
       "id": "3",
       "attributes": {
-        "title": "Evaluation 3",
+        "title": "Two-Qubit Parametric Drive (iSWAP Subspace)",
         "polarAngle": 0.09843,
         "maxRabiRate": 0.03844
       }
@@ -34,7 +34,7 @@
       "type": "controls",
       "id": "4",
       "attributes": {
-        "title": "Evaluation 4",
+        "title": "Mølmer-Sørensen Drive",
         "polarAngle": 0.09173,
         "maxRabiRate": 0.07732
       }
