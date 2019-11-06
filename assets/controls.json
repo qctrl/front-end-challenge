@@ -1,19 +1,19 @@
 {
   "links": {
-    "self": "https: //api.q-ctrl.com/pulses"
+    "self": "https: //api.q-ctrl.com/controls"
   },
   "data": [
     {
-      "type": "pulses",
+      "type": "controls",
       "id": "1",
       "attributes": {
-        "title": "Evaluation 1",
+        "title": "Single-Qubit Driven Control",
         "polarAngle": 0.05671,
         "maxRabiRate": 0.16731
       }
     },
     {
-      "type": "pulses",
+      "type": "controls",
       "id": "2",
       "attributes": {
         "title": "Evaluation 2",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "type": "pulses",
+      "type": "controls",
       "id": "3",
       "attributes": {
         "title": "Evaluation 3",
@@ -31,7 +31,7 @@
       }
     },
     {
-      "type": "pulses",
+      "type": "controls",
       "id": "4",
       "attributes": {
         "title": "Evaluation 4",
