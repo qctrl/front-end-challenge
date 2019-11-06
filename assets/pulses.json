@@ -1,0 +1,43 @@
+{
+  "links": {
+    "self": "https: //api.q-ctrl.com/pulses"
+  },
+  "data": [
+    {
+      "type": "pulses",
+      "id": "1",
+      "attributes": {
+        "title": "Evaluation 1",
+        "polarAngle": 0.05671,
+        "maxRabiRate": 0.16731
+      }
+    },
+    {
+      "type": "pulses",
+      "id": "2",
+      "attributes": {
+        "title": "Evaluation 2",
+        "polarAngle": 0.02688,
+        "maxRabiRate": 0.00172
+      }
+    },
+    {
+      "type": "pulses",
+      "id": "3",
+      "attributes": {
+        "title": "Evaluation 3",
+        "polarAngle": 0.09843,
+        "maxRabiRate": 0.03844
+      }
+    },
+    {
+      "type": "pulses",
+      "id": "4",
+      "attributes": {
+        "title": "Evaluation 4",
+        "polarAngle": 0.09173,
+        "maxRabiRate": 0.07732
+      }
+    }
+  ]
+}
