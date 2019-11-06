@@ -13,10 +13,9 @@ The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles with
 ## The Rules
 
 - Read and understand [The Challenge](#the-challenge)
-- Fork this repository
 - Create a [React](https://reactjs.org/) app that satisfies the [Requirements](#requirements)
 - Spend no more than one hour of actual coding time
-- Send the link to your repo to careers@q-ctrl.com
+- Send the link to the repository containing your app to careers@q-ctrl.com
 
 ## The Challenge
 
