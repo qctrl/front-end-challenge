@@ -16,7 +16,7 @@
       "type": "controls",
       "id": "2",
       "attributes": {
-        "title": "Dynamical Decoupling Sequences",
+        "title": "Single-Qubit Dynamic Decoupling",
         "polarAngle": 0.02688,
         "maxRabiRate": 0.00172
       }
@@ -25,7 +25,7 @@
       "type": "controls",
       "id": "3",
       "attributes": {
-        "title": "Two-Qubit Parametric Drive (iSWAP Subspace)",
+        "title": "Two-Qubit Parametric Drive",
         "polarAngle": 0.09843,
         "maxRabiRate": 0.03844
       }
