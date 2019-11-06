@@ -1,26 +1,20 @@
 # Q-CTRL Front-end Engineering Challenge
 
-The goal of the Q-CTRL Front-end Engineering Challenge is to demonstrate your approach to the brief provided below.
+The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end web application development using [React](https://reactjs.org/).
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Requirements](#requirements)
+- [Submissions](#submissions)
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-
-To install, simply clone or fork the repository, then:
-
-1. How
-1. to
-1. run
-1. the
-1. API
-
 ## Requirements
+
+TODO
+
+## Submissions
 
 TODO
 
