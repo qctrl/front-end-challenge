@@ -1,6 +1,6 @@
 # Q-CTRL Front-end Engineering Challenge
 
-The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end web application development.
+The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end application development.
 
 ## Table of Contents
 
@@ -13,9 +13,9 @@ The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles with
 ## The Rules
 
 - Read and understand [The Challenge](#the-challenge)
-- Create a [React](https://reactjs.org/) app that satisfies the [Requirements](#requirements)
+- Create a solution that satisfies the [Requirements](#requirements)
 - Spend no more than one hour of actual coding time
-- Send the link to the repository containing your app to careers@q-ctrl.com
+- Send the link to the repository containing your solution to careers@q-ctrl.com
 
 ## The Challenge
 
@@ -26,6 +26,8 @@ There's a new set of product features being planned for [BLACK OPAL](https://q-c
 The first feature in the sprint is to create a page where a customer can view all the controls they have created.
 
 ### Requirements
+
+Create a web application using [React](https://reactjs.org/) that satisfies the following acceptance criteria scenarios:
 
 ```
 Scenario 1: Controls loading
@@ -52,7 +54,7 @@ Then I should see a loading spinner
 And the controls should start to load again
 ```
 
-### Assets
+### Additional Information
 
 The below assets have been provided to help complete the challenge.
 
