@@ -56,7 +56,7 @@ And the controls should start to load again
 
 The below assets have been provided to help complete the challenge.
 
-| Asset         | Description                                                                         |
+| Name          | Description                                                                         |
 |---------------|-------------------------------------------------------------------------------------|
 | controls.json | Sample response in [JSON:API](https://jsonapi.org/) format provided by the API team |
 | design.pdf    | Visual design for the feature provided by the Design team                           |
