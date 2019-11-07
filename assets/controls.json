@@ -9,8 +9,8 @@
       "attributes": {
         "name": "Single-Qubit Driven",
         "type": "Primitive",
-        "polar_angle": 0.05671,
-        "maximum_rabi_rate": 63.16731
+        "maximum_rabi_rate": 63.16731,
+        "polar_angle": 0.05671
       }
     },
     {
@@ -19,8 +19,8 @@
       "attributes": {
         "name": "Single-Qubit Dynamic Decoupling",
         "type": "CORPSE",
-        "polar_angle": 0.02688,
-        "maximum_rabi_rate": 87.00172
+        "maximum_rabi_rate": 87.00172,
+        "polar_angle": 0.02688
       }
     },
     {
@@ -29,8 +29,8 @@
       "attributes": {
         "name": "Two-Qubit Parametric Drive",
         "type": "Gaussian",
-        "polar_angle": 0.09843,
-        "maximum_rabi_rate": 70.03844
+        "maximum_rabi_rate": 70.03844,
+        "polar_angle": 0.09843
       }
     },
     {
@@ -39,8 +39,8 @@
       "attributes": {
         "name": "Mølmer-Sørensen Drive",
         "type": "CinBB",
-        "polar_angle": 0.09173,
-        "maximum_rabi_rate": 97.07732
+        "maximum_rabi_rate": 97.07732,
+        "polar_angle": 0.09173
       }
     }
   ]
