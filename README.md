@@ -2,6 +2,8 @@
 
 The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end application development.
 
+The requirements are intentionally sparse (the devil is in the detail). We don't want you to do a lot, but what you do should be your best work and should clearly demonstrate you embody the [Three Virtues](http://threevirtues.com/).
+
 ## Table of Contents
 
 - [The Rules](#the-rules)
@@ -14,7 +16,6 @@ The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles with
 
 - Read and understand [The Challenge](#the-challenge)
 - Create a solution that satisfies the [Requirements](#requirements)
-- Spend no more than one hour of actual coding time
 - Send the link to the repository containing your solution to careers@q-ctrl.com
 
 ## The Challenge
