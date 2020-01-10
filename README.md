@@ -15,20 +15,18 @@ The requirements are intentionally sparse (the devil is in the detail). We don't
 ## The Rules
 
 - Read and understand [The Challenge](#the-challenge)
-- Create a solution that satisfies the [Requirements](#requirements)
-- Send the link to the repository containing your solution to careers@q-ctrl.com
+- Create solutions that satisfy [The Requirements](#the-requirements)
+- Send a link to the repository containing your solution to careers@q-ctrl.com
 
 ## The Challenge
 
-### Background
+There's a new set of product features being planned for [BLACK OPAL](https://q-ctrl.com/products/black-opal/) whereby a customer will be able to create and manage quantum controls. You can think of these controls as being the individual inputs a customer may employ to manipulate their quantum system using the [Q-CTRL App](https://app.q-ctrl.com/). Alongside these new features will be a new documentation website.
 
-There's a new set of product features being planned for [BLACK OPAL](https://q-ctrl.com/products/black-opal/) whereby a customer will be able to create and manage quantum controls. You can think of these controls as being the individual inputs a customer may employ to manipulate their quantum system using the [Q-CTRL App](https://app.q-ctrl.com/).
+## The Requirements
 
-The first feature in the sprint is to create a page where a customer can view all the controls they have created.
+### 1. Controls Page
 
-### Requirements
-
-Create a web application using [React](https://reactjs.org/) that satisfies the following acceptance criteria scenarios:
+The first feature in the sprint is to create a page where a customer can view all the controls they have created. Create a web application using [React](https://reactjs.org/) that satisfies the following scenarios:
 
 ```
 Scenario 1: Controls loading
@@ -55,15 +53,20 @@ Then I should see a loading spinner
 And the controls should start to load again
 ```
 
-### Additional Information
+### 2. Documentation page
+
+The second feature in the sprint is to create the new documentation home page. Unlike the React app above, the documentation is a publicly available source of information and must be highly accessible. Using the supplied [design](assets/documentation.pdf), create the HTML for the new page only. No CSS, No JS - just plain old semantic HTML (POSH).
+
+### Additional information
 
 The below assets have been provided to help complete the challenge.
 
-| Name                                  | Description                                                                         |
-|---------------------------------------|-------------------------------------------------------------------------------------|
-| [controls.json](assets/controls.json) | Sample response in [JSON:API](https://jsonapi.org/) format provided by the API team |
-| [design.pdf](assets/design.pdf)       | Visual design for the feature provided by the Design team                           |
-| [logo.svg](assets/logo.svg)           | Q-CTRL logo provided by the Brand team                                              |
+| Name                                          | Description                                                                         |
+|-----------------------------------------------|-------------------------------------------------------------------------------------|
+| [controls.json](assets/controls.json)         | Sample response in [JSON:API](https://jsonapi.org/) format provided by the API team |
+| [controls.pdf](assets/controls.pdf)           | Visual design for the controls page feature provided by the Design team             |
+| [documentation.pdf](assets/documentation.pdf) | Visual design for the documentation page feature provided by the Design team        |
+| [logo.svg](assets/logo.svg)                   | Q-CTRL logo provided by the Brand team                                              |
 
 ## Contributing
 
