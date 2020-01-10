@@ -67,12 +67,12 @@ The second feature in the sprint is to create the top part of the new documentat
 
 The below assets have been provided to help complete the challenge.
 
-| Name                                          | Description                                                                         |
-|-----------------------------------------------|-------------------------------------------------------------------------------------|
-| [controls.json](assets/controls.json)         | Sample response in [JSON:API](https://jsonapi.org/) format provided by the API team |
-| [controls.pdf](assets/controls.pdf)           | Visual design for the controls page feature provided by the Design team             |
-| [documentation.pdf](assets/documentation.pdf) | Visual design for the documentation page feature provided by the Design team        |
-| [logo.svg](assets/logo.svg)                   | Q-CTRL logo provided by the Brand team                                              |
+| Name                                          | Description                                                                                      |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [controls.pdf](assets/controls.pdf)           | Visual design for the controls page feature provided by the Design team                          |
+| [documentation.pdf](assets/documentation.pdf) | Visual design for the documentation page feature provided by the Design team                     |
+| [controls.json](assets/controls.json)         | Sample controls API response in [JSON:API](https://jsonapi.org/) format provided by the API team |
+| [logo.svg](assets/logo.svg)                   | Q-CTRL logo provided by the Brand team                                                           |
 
 ## Contributing
 
