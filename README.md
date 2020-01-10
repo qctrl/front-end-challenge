@@ -8,6 +8,10 @@ The requirements are intentionally sparse (the devil is in the detail). We don't
 
 - [The Rules](#the-rules)
 - [The Challenge](#the-challenge)
+- [The Requirements](#the-requirements)
+  - [Controls Page](#controls-page)
+  - [Documentation Page](#documentation-page)
+- [Additional Information](#additional-information)
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [License](#license)
@@ -24,7 +28,7 @@ There's a new set of product features being planned for [BLACK OPAL](https://q-c
 
 ## The Requirements
 
-### 1. Controls Page
+### Controls Page
 
 The first feature in the sprint is to create a page where a customer can view all the controls they have created. Create a web application using [React](https://reactjs.org/) that satisfies the following scenarios:
 
@@ -53,11 +57,11 @@ Then I should see a loading spinner
 And the controls should start to load again
 ```
 
-### 2. Documentation page
+### Documentation Page
 
 The second feature in the sprint is to create the new documentation home page. Unlike the React app above, the documentation is a publicly available source of information and must be highly accessible. Using the supplied [design](assets/documentation.pdf), create the HTML for the new page only. No CSS, No JS - just plain old semantic HTML (POSH).
 
-### Additional information
+## Additional Information
 
 The below assets have been provided to help complete the challenge.
 
