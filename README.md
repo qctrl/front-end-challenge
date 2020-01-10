@@ -59,7 +59,7 @@ And the controls should start to load again
 
 ### Documentation Page
 
-The second feature in the sprint is to create the new documentation home page. Unlike the React app above, the documentation is a publicly available source of information and must be highly accessible. Using the supplied [design](assets/documentation.pdf), create the HTML for the new page only. No CSS, No JS - just plain old semantic HTML (POSH).
+The second feature in the sprint is to create the new documentation home page. Unlike the React app above, the documentation is a publicly available source of information and must be highly accessible. Using the supplied [design](assets/documentation.png), create the HTML for the new page only. No CSS, No JS - just plain old semantic HTML (POSH).
 
 ## Additional Information
 
@@ -69,7 +69,7 @@ The below assets have been provided to help complete the challenge.
 |-----------------------------------------------|-------------------------------------------------------------------------------------|
 | [controls.json](assets/controls.json)         | Sample response in [JSON:API](https://jsonapi.org/) format provided by the API team |
 | [controls.pdf](assets/controls.pdf)           | Visual design for the controls page feature provided by the Design team             |
-| [documentation.pdf](assets/documentation.pdf) | Visual design for the documentation page feature provided by the Design team        |
+| [documentation.png](assets/documentation.png) | Visual design for the documentation page feature provided by the Design team        |
 | [logo.svg](assets/logo.svg)                   | Q-CTRL logo provided by the Brand team                                              |
 
 ## Contributing
