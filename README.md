@@ -59,7 +59,9 @@ And the controls should start to load again
 
 ### Documentation Page
 
-The second feature in the sprint is to create the top part of the new documentation home page. Unlike the React app above, the documentation is a publicly available source of information and must be highly accessible. Using the supplied [design](assets/documentation.pdf), create the HTML for the design. No CSS, No JS, no frameworks - just plain old semantic HTML (POSH).
+The second feature in the sprint is to create the new documentation home page. Unlike the React app above, the documentation is a publicly available source of information and must be highly accessible. Using the supplied [design](assets/documentation.pdf), create the **HTML only** for the design. No CSS, No JS, no frameworks - just plain old semantic HTML (POSH).
+
+The purpose of this component of the Q-CTRL Front-end Engineering Challenge is to determine your grasp of valid, standards-compliant, semantic HTML - a skill that has become surprisingly rare amongst candidates whose experience of front-end web development has been limited to JavaScript frameworks.
 
 ## Additional Information
 
