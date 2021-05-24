@@ -8,3 +8,5 @@ CODEOWNERS @qctrl/devops-engineering
 deployment/ @qctrl/devops-engineering
 docker* @qctrl/devops-engineering
 Docker* @qctrl/devops-engineering
+
+.github/README.md @qctrl/front-end-engineering
