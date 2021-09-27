@@ -27,7 +27,7 @@ The requirements are intentionally sparse (the devil is in the detail). We don't
 
 Build an app that can display a list of countries with the capability of filtering results through a search mechanism, paginating countries and showing information about each individual country.
 
-Use the [RESTCountries endpoint](https://restcountries.eu/rest/v2/all) to get the list of all countries.
+Use the [RESTCountries endpoint](https://restcountries.com/v3/all) to get the list of all countries.
 
 ## The requirements
 
@@ -36,6 +36,7 @@ Use the [RESTCountries endpoint](https://restcountries.eu/rest/v2/all) to get th
 - Write your own search logic, you are not marked on how advanced your search algorithm is
 - Spend no more than 3 hours on this challenge
 - You are free to use a UI library such as [Material-UI](https://material-ui.com/)
+- In the case you are unable to use [RESTCountries endpoint](https://restcountries.com/v3/all) you will find the complete data set in the assets folder of this repository
 
 ### Countries page
 
@@ -113,6 +114,7 @@ The below assets have been provided to help complete the challenge.
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [Countries View.png](assets/Countries%20View.png) | Mock up for the Countries View                                                                      |
 | [Country View.png](assets/Country%20View.png)     | Mock up for the Country View                                                                         |
+| [countries.json](assets/countries.json)     | Local json API data in the case the public endpoint is not available                                                             |
 
 ## Contributing
 
