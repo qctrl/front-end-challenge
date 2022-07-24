@@ -1,120 +1,96 @@
-# Q-CTRL Front-end Engineering Challenge
+# Q-CTRL Front-end Challenge
 
-The Q-CTRL Front-end Engineering Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end application development.
+The Q-CTRL Front-end Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end application development.
 
-The requirements are intentionally sparse (the devil is in the detail). We don't want you to do a lot, but what you do should be your best work and should clearly demonstrate you embody the [Three Virtues](http://threevirtues.com/).
-
-## Table of contents
-
-- [The rules](#the-rules)
-- [The challenge](#the-challenge)
-- [The requirements](#the-requirements)
-  - [Countries page](#countries-page)
-  - [Country page](#country-page)
-- [Additional information](#additional-information)
-  - [Assets](#assets)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+The requirements are intentionally sparse (the devil is in the detail). We don't want you to do a lot, but what you do should be your best work and should clearly demonstrate you embody [the three virtues](https://thethreevirtues.com/).
 
 ## The rules
 
-- Read and understand [The challenge](#the-challenge)
-- Create solutions that satisfy [The requirements](#the-requirements)
-- Send us a link to the repository containing your solution once you are done
+- Read and understand [the challenge](#the-challenge).
+- Create a solution that satisfies [the requirements](#the-requirements).
+- Use [REST Countries](https://restcountries.com/) to get all the data you need.
+- Write your own pagination logic.
+- Write your own search logic (you're not marked on how advanced your search algorithm is).
+- Feel free to use a UI library such as [MUI](https://mui.com/).
+- Spend no more than three hours on this challenge.
+- Send us a link to the repository containing your solution when you're done.
 
 ## The challenge
 
-Build an app that can display a list of countries with the capability of filtering results through a search mechanism, paginating countries and showing information about each individual country.
-
-Use the [RESTCountries endpoint](https://restcountries.com/v3/all) to get the list of all countries.
+Build a [React](https://reactjs.org/) app that displays a list of [countries](https://github.com/qctrl/front-end-challenge/blob/master/assets/countries.png) with the capability of filtering results through a search mechanism, paginating countries, and showing information about each individual [country](https://github.com/qctrl/front-end-challenge/blob/master/assets/country.png).
 
 ## The requirements
 
-- Create a web application using [React](https://reactjs.org/) consisting of two pages, as described in the sections below
-- Write your own pagination logic
-- Write your own search logic, you are not marked on how advanced your search algorithm is
-- Spend no more than 3 hours on this challenge
-- You are free to use a UI library such as [Material-UI](https://material-ui.com/)
-- In the case you are unable to use [RESTCountries endpoint](https://restcountries.com/v3/all) you will find the complete data set in the assets folder of this repository
-
-### Countries page
-
-The first page allows a customer to view all the countries that are returned from the countries API, and satisfies the following scenarios:
-
-```text
-Scenario 1: Countries loading
-Given I am on the countries page
-When the countries haven't finished loading
-Then I should see a loading spinner
-
-Scenario 2: Countries loaded
-Given I am on the countries page
-When the countries have finished loading
-Then I should see the first 10 countries in alphabetical order
-  And display their country name
-
-Scenario 3: Search
-Given I have entered text in the search input
-When I click the search button
-Then I should update the countries list to only show countries which contain the search text
-
-Scenario 4: Hide next page button
-Given there are no more countries on the next page
-When the countries list has updated
-Then hide the button to paginate to the next page
-
-Scenario 5: Hide previous page button
-Given there are no more countries on the previous page
-When the countries list has updated
-Then hide the button to paginate to the previous page
-
-Scenario 6: Clicking the next page button
-Given the next page button is visible
-When I click on the next page button
-Then I should see the next 10 countries in alphabetical order
-
-Scenario 7: Clicking the previous page button
-Given the previous page button is visible
-When I click on the previous page button
-Then I should see the previous 10 countries in alphabetical order
-
-Scenario 8: Clicking a country
-Given the countries list has loaded
-When I click a country
-Then take me to that country's page
 ```
+Feature: View the countries page
 
-### Country page
+  Scenario: Countries are loading
+    Given I am on the countries page
+    Then I should see a loading spinner
 
-The second page allows a customer to view details about an individual country, and satisfies the following scenarios:
+  Scenario: Countries have loaded
+    Given I am on the countries page
+    When the countries have finished loading
+    Then I should see the first 10 countries in alphabetical order
+    And I should not see the previous button
 
-```text
-Scenario 1: Country loading
-Given I am on the country page
-When the country hasn't finished loading
-Then I should see a loading spinner
+Feature: Browse countries on the countries page
 
-Scenario 2: Country loaded
-Given I am on the country page
-When the country has finished loading
-Then I should see the country's flag
-  And the country's name
-  And the country's population
-  And the country's demonym
+  Scenario: Click the next button
+    Given I am on the countries page
+    And I am not on the last page of countries
+    When I click the next button
+    Then I should see the next 10 countries
+
+  Scenario: Click the previous button
+    Given I am on the countries page
+    And I am not on the first page of countries
+    When I click the previous button
+    Then I should see the previous 10 countries
+
+  Scenario: Viewing the first page
+    Given I am on the countries page
+    When I am on the first page of countries
+    Then I should not see the previous button
+
+  Scenario: Viewing the last page
+    Given I am on the countries page
+    When I am on the last page of countries
+    Then I should not see the next button
+
+Feature: Search countries on the countries page
+
+  Scenario: Search countries
+    Given I am on the countries page
+    And I have entered some text in the search box
+    When I click the search button
+    Then I should see a list of countries that match my search
+
+Feature: View the country page
+
+  Scenario: Clicking a country
+    Given I am on the countries page
+    When I click a country
+    Then I should see the country page
+
+  Scenario: Country is loading
+    Given I am on the country page
+    Then I should see a loading spinner
+
+  Scenario: Country has loaded
+    Given I am on the country page
+    When the country has finished loading
+    Then I should see a back button
+    And I should see the country's flag
+    And I should see the country's name
+    And I should see the country's population
+    And I should see the country's demonym
+
+  Scenario: Click the back button
+    Given I am on the country page
+    When I click the back button
+    Then I should see the countries page 
 ```
-
-## Additional information
-
-### Assets
-
-The below assets have been provided to help complete the challenge.
-
-| Name                                              | Description                                                                                      |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [Countries View.png](assets/Countries%20View.png) | Mock up for the Countries View                                                                      |
-| [Country View.png](assets/Country%20View.png)     | Mock up for the Country View                                                                         |
-| [countries.json](assets/countries.json)     | Local json API data in the case the public endpoint is not available                                                             |
 
 ## Contributing
 
@@ -126,4 +102,4 @@ See [Contributors](https://github.com/qctrl/front-end-challenge/graphs/contribut
 
 ## License
 
-See [LICENSE](LICENSE).
+See [LICENSE](https://github.com/qctrl/front-end-challenge/blob/master/LICENSE).
