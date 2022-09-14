@@ -1,25 +1,28 @@
 # Q-CTRL Front-end Challenge
 
-The Q-CTRL Front-end Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to front-end application development.
+The Q-CTRL Front-end Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to web development.
 
-The requirements are intentionally sparse (the devil is in the detail). We don't want you to do a lot, but what you do should be your best work and should clearly demonstrate you embody [the three virtues](https://thethreevirtues.com/).
+The requirements are intentionally sparse (the devil is in the details). We don't want you to do a lot, but what you do should be your best work and should clearly demonstrate you embody [the three virtues](https://thethreevirtues.com/).
 
 ## The rules
 
 - Read and understand [the challenge](#the-challenge).
 - Create a solution that satisfies [the requirements](#the-requirements).
-- Use [REST Countries](https://restcountries.com/) to get all the data you need.
-- Write your own pagination logic.
-- Write your own search logic (you're not marked on how advanced your search algorithm is).
-- Feel free to use a UI library such as [MUI](https://mui.com/).
-- Spend no more than three hours on this challenge.
 - Send us a link to the repository containing your solution when you're done.
 
 ## The challenge
 
-Build a [React](https://reactjs.org/) app that displays a list of [countries](https://github.com/qctrl/front-end-challenge/blob/master/assets/countries.png) with the capability of filtering results through a search mechanism, paginating countries, and showing information about each individual [country](https://github.com/qctrl/front-end-challenge/blob/master/assets/country.png).
+There's a new set of product features being planned for whereby a customer will be able to browse a list of [countries](https://github.com/qctrl/front-end-challenge/blob/master/assets/countries.png) with the ability to filter the list through a search mechanism, pagination, and finally seeing information about each individual [country](https://github.com/qctrl/front-end-challenge/blob/master/assets/country.png). Alongside these new features will be a new [documentation](https://github.com/qctrl/front-end-challenge/blob/master/assets/documentation.pdf) website.
 
 ## The requirements
+
+### Countries
+
+- Build a [React](https://reactjs.org/) app.
+- Use [REST Countries](https://restcountries.com/) to get all the data you need.
+- Write your own pagination logic.
+- Write your own search logic (you're not marked on how advanced your search algorithm is).
+- Feel free to use a UI library such as [MUI](https://mui.com/).
 
 ```
 Feature: View the countries page
@@ -89,8 +92,16 @@ Feature: View the country page
   Scenario: Click the back button
     Given I am on the country page
     When I click the back button
-    Then I should see the countries page 
+    Then I should see the countries page
 ```
+
+### Documentation
+
+- Create the **HTML only** based on the supplied design.
+- No CSS.
+- No JS.
+- No libraries.
+- Nothing but plain old semantic HTML (POSH).
 
 ## Contributing
 
