@@ -1,6 +1,6 @@
 # Q-CTRL Front-end Challenge
 
-The Q-CTRL Front-end Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to web development.
+The Q-CTRL Front-end Challenge is a way for applicants to roles within the Q-CTRL Front-end Engineering team to demonstrate their skills and overall approach to solving a challenge based upon a set of requirements.
 
 The requirements are intentionally sparse (the devil is in the details). We don't want you to do a lot, but what you do should be your best work and should clearly demonstrate you embody [the three virtues](https://thethreevirtues.com/).
 
@@ -8,7 +8,11 @@ The requirements are intentionally sparse (the devil is in the details). We don'
 
 - Read and understand [the challenge](#the-challenge).
 - Create a solution that satisfies [the requirements](#the-requirements).
-- Send us a link to the repository containing your solution when you're done.
+- Send a link to the repository containing your solution to the person who contacted you.
+
+**IMPORTANT:** The repository containing your solution must be public, must contain a `README.md` file, **MUST NOT** be a fork of this repository, and **MUST NOT** make any reference to "Q-CTRL" in the repository name, description, or code.
+
+**Note:** You should spend no more than three hours on this challenge.
 
 ## The challenge
 
